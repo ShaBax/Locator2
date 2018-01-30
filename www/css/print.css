@@ -1,0 +1,20 @@
+/* Styles go here */
+.side-bar,.padding-leftnone,.navbar-nav,.entypo-menu,.mainlogo,.printButton,.locatorlogo,.container-fluid,.paper-wrap,.bevel,.tlbr,.vechicle_info,.padding105,.padding_left15
+,.paddingright010,.tittle-content-header,.tittle-middle-header,.slider{
+
+display: none;
+}
+ 
+.printmap,.container-fluid,.paper-wrap,.bevel,.tlbr
+{
+  display: block;
+  margin-left: -60px !important;
+
+  margin-top:20px;
+
+}
+ @media print {
+  img {
+    max-width: none !important;
+  }
+}
